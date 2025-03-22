@@ -1,0 +1,25 @@
+{
+    "name": "magic-math-api",
+    "version": "1.0.0",
+    "description": "REST API for calculating Magic Math values",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "math",
+      "api",
+      "express",
+      "nodejs"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
