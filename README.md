@@ -40,7 +40,7 @@ For development with auto-restart:
 npm run dev
 ```
 
-The server will start on http://0.0.0.0:5000
+The server will start on http://localhost:5000
 
 ### API Usage
 
