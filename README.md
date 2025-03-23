@@ -19,7 +19,7 @@ Magic Math is defined as:
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/magic-math-api.git
+git clone https://github.com/sardeepchhabra/magic-math-api.git
 cd magic-math-api
 ```
 
