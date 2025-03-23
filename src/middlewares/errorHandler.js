@@ -4,7 +4,8 @@ const config = require("../config/config");
 /**
  * Global error handling middleware
  */
-function errorHandler(err, req, res) {
+// eslint-disable-next-line no-unused-vars
+function errorHandler(err, req, res, next) {
   // Log the error
   console.error(`Error processing ${req.method} ${req.originalUrl}:`, err);
 
