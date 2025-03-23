@@ -36,4 +36,14 @@ export default [
       ...js.configs.recommended.rules,
     },
   },
+
+  // Add Jest environment for test files
+  {
+    files: ["**/*.test.js"],
+    languageOptions: {
+      globals: {
+        ...globals.jest,
+      },
+    },
+  },
 ];
